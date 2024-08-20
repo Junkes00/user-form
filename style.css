@@ -1,0 +1,52 @@
+body {
+  margin: 0 auto;
+  width: 300px;
+  padding: 10px;
+
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+}
+
+form {
+  /* Center content */
+  display: grid;
+  justify-content: center;
+
+  /* Border */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+
+  gap: 10px;
+}
+
+div {
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 4px;
+  font-size: 14px;
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+}
+
+.error-message {
+  display: block;
+  font-size: 0.8125em;
+  color: red;
+}
